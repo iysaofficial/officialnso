@@ -19,9 +19,9 @@ export default function compFaq() {
     {/* PAGE HEADER START */}
     <div className="page-header text-center">
         <h1>FAQ</h1>
-        <a href="/">Home </a>
+        <a href="/">Beranda </a>
         <a> / </a>
-        <a>FAQ Page</a>
+        <a>Halaman FAQ</a>
       </div>
     {/* PAGE HEADER END */}
       <section className="faq-section">
@@ -29,7 +29,7 @@ export default function compFaq() {
           <div className="row">
             <div className="col-md-6 offset-md-3">
               <div className="faq-title text-center pb-3">
-                <h2>AFTER REGISTER</h2>
+                <h2>Setelah Daftar</h2>
               </div>
             </div>
 
@@ -89,7 +89,7 @@ export default function compFaq() {
               <div className="faq-title text-center pb-3">
                 <br />
                 <br />
-                <h2>DURING THE EVENT</h2>
+                <h2>Selama Event Berlangsung</h2>
               </div>
             </div>
 
@@ -130,7 +130,7 @@ export default function compFaq() {
               <div className="faq-title text-center pb-3">
                 <br />
                 <br />
-                <h2>AFTER THE EVENT</h2>
+                <h2>Setelah Acara</h2>
               </div>
             </div>
 
@@ -178,121 +178,108 @@ const data = [
     no: "1",
     datatarget: "#faqCollapse-1",
     id: "faqCollapse-1",
-    question: "Minsa, when will we get our LoA? Where will it be sent?",
+    question: "Minsa, kapan kami akan mendapatkan LoA kami? Dikirimnya kemana sih?",
     answer:
-      "After we receive your registration, we will send a confirmation email within 1X24 hours, and for LoA we will send it to the team leader's email address within 3X24 hours after registration.",
+      "Setelah pendaftaran kamu kami terima, kami akan mengirimkan email konfirmasi selambatnya 1X24 jam, dan untuk LoA akan kami kirimkan ke alamat email ketua tim selambatnya 3X24 jam setelah pendaftaran.",
+    gambar:"./src/assets/Logo/OSPC-Logo.WebP",
+
   },
   {
     no: "2",
     datatarget: "#faqCollapse-2",
     id: "faqCollapse-2",
     question:
-      "Minsa, I registered one week ago, but why haven't I received my LoA and Invoice yet?",
+      "Minsa, aku sudah daftar satu minggu yang lalu tapi kok aku belum terima LoA dan Invoice ya?",
     answer:
-      "Try checking the spam folder on your team leader's email, maybe the email from the IYSA team went to the spam folder.",
+      "Coba deh cek folder spam di email ketua tim kamu, mungkin email dari tim IYSA masuk ke folder spam.",
   },
   {
     no: "3",
     datatarget: "#faqCollapse-3",
     id: "faqCollapse-3",
-    question: "Where do you upload the competition file?",
+    question: "Upload berkas lomba di mana sih Minsa?",
     answer:
-      "The drive link for uploading files and the link for uploading proof of payment will be included in the invoice.",
+      "Link drive untuk upload berkas dan link untuk upload bukti pembayaran akan dicantumkan di invoice.",
+    gambar:"./src/assets/ContohInvoice.jpg",
   },
   {
     no: "4",
     datatarget: "#faqCollapse-4",
     id: "faqCollapse-4",
     question:
-      "I want to pay the registration fee but how come I can not find the invoice? and where is the payment transferred?",
+      "Aku mau bayar biaya registrasi nih tapi kok aku tidak bisa menemukan Invoicenya ya? dan pembayarannya di transfer kemana sih?",
     answer:
-      "Come on, have you read LoA to the end yet? Because we will send the invoice with your teams LoA, make sure you have read the email from us to the end! For payment, you can transfer to the account listed on the invoice. Make sure you pay according to the nominal stated on the invoice, okay!",
+      "Untuk Invoice akan dikirimkan secara terpisah dengan LoA, jika kalian tidak menemukan nya kalian bisa cek pada folder spam email ketua tim, dan invoice maksimal akan dikirimkan 5x24 jam setelah pendaftaran. Pembayaran dapat di transfer ke nomor rekening yang tercantum dalam invoice."
   },
   {
     no: "5",
     datatarget: "#faqCollapse-5",
     id: "faqCollapse-5",
     question:
-      "Minsa, I have already paid the registration fee. Where can I upload the proof of payment?",
+      "Minsa, aku sudah bayar biaya registrasinya nih, upload bukti pembayarannya kemana ya?",
     answer:
-      "If you have made a payment, you can upload the proof to the link listed on the invoice, and make sure you fill in and upload the proof of transfer correctly so that the committee can record it correctly too",
+      "Jika sudah melakukan pembayaran, kamu bisa upload buktinya ke link yang tercantum di invoice, dan pastikan kamu mengisi dan mengupload bukti transfer dengan benar agar panitia dapat mendatanya dengan benar juga.",
   },
   {
     no: "6",
     datatarget: "#faqCollapse-6",
     id: "faqCollapse-6",
-    question: "When will the receipt be sent to us?",
+    question: "Kalau kuitansinya kapan dikirimkan ke kami?",
     answer:
-      "We will send a receipt for payment in a maximum of 7 working days to the team leaders email, after you have uploaded proof of payment!",
+      "Kuitansi pembayaran akan kami kirimkan maksimal 7 hari kerja ke email ketua tim, setelah kamu upload bukti pembayaran ya!",
   },
   {
     no: "7",
     datatarget: "#faqCollapse-7",
     id: "faqCollapse-7",
     question:
-      "Minsa, one more week for judging, how come I have not received my teams presentation schedule yet?",
+      "Minsa, satu minggu lagi penjurian nih kok aku belum terima jadwal presentasi tim aku ya?",
     answer:
-      "We will send the online participant presentation schedule no later than 2 days before the judging takes place to the whatsapp group and also the team leaders email. Make sure you diligently check the information we provide on the Whatsapp group and also email!",
+      "Jadwal presentasi peserta online akan kami kirimkan selambatnya 2 hari sebelum penjurian berlangsung ke whatsapp grup dan juga email ketua tim. Pastikan kamu rajin cek informasi yang kami berikan di whatsapp grup dan juga email ya!",
   },
 ];
 
 const data2 = [
   {
     no: "1",
-    datatarget: "#faqCollapse-during-1",
-    id: "faqCollapse-during-1",
-    question: "When will the presentation schedule be given by the committee?",
+    datatarget: "#faqCollapse-During-1",
+    id: "faqCollapse-During-1",
+    question: "Kapan jadwal presentasi akan diberikan oleh panitia?",
     answer:
-      "We will provide a presentation schedule no later than 2 days before the judging takes place or it could be earlier, and we will send it via the WA group and also the team leaders e-mail.",
+      "Jadwal presentasi akan kami berikan selambatnya 2 hari sebelum penjurian berlangsung atau bisa juga lebih cepat, dan kami kirimkan melalui WA grup dan juga e-mail ketua tim.",
   },
   {
     no: "2",
-    datatarget: "#faqCollapse-during-2",
-    id: "faqCollapse-during-2",
+    datatarget: "#faqCollapse-During-2",
+    id: "faqCollapse-During-2",
     question:
-      "What application used for online presentation? Zoom, Google Meet or something else?",
+      "Presentasi online menggunakan aplikasi apa? Zoom, google meet atau yg lainnya?",
     answer:
-      "For online judging, we always use the Zoom application and make sure your Zoom application is up to date.",
+      "Untuk penjurian online kami selalu memakai aplikasi Zoom ya teman-teman, dan pastikan aplikasi Zoom kamu sudah yang terbaru yaa.",
   },
   {
     no: "3",
-    datatarget: "#faqCollapse-during-3",
-    id: "faqCollapse-during-3",
-    question: "When will the zoom link be given by the committee?",
+    datatarget: "#faqCollapse-During-3",
+    id: "faqCollapse-During-3",
+    question: "Kapan link zoom akan diberikan oleh panitia?",
     answer:
-      "We will provide a Zoom link on the judging day, and we will send it periodically to the group according to your teams presentation time",
+      "Link Zoom akan kami berikan dihari penjurian, dan akan kami kirim berkala di grup sesuai jam presentasi tim kalian ",
   },
   {
     no: "4",
-    datatarget: "#faqCollapse-during-4",
-    id: "faqCollapse-during-4",
-    question: "how many zoom accounts can join and what should i set my name",
+    datatarget: "#faqCollapse-During-4",
+    id: "faqCollapse-During-4",
+    question: "Berapa banyak akun zoom yang bisa join dan penamannya seperti apa?",
     answer:
-      'You can enter Zoom with a maximum of 5 accounts for participants, and all Zoom accounts must follow the name format that we have provided, namely "Room Number_Team Leader Name_Institution Name"',
+      'Teman-teman bisa masuk ke Zoom maksimal dengan 5 akun untuk peserta, dan semua akun Zoom harus mengikuti format nama yang sudah  kami berikan yaitu "Nomor ruangan_Nama Ketua Tim_Nama Institusi"',
   },
   {
     no: "5",
-    datatarget: "#faqCollapse-during-5",
-    id: "faqCollapse-during-5",
-    question: "how long will the participants make the presentation?",
+    datatarget: "#faqCollapse-During-5",
+    id: "faqCollapse-During-5",
+    question: "Berapa durasi peserta melakukan presentasi?",
     answer:
-      "You will be given 15 minutes for 1 presentation session which will be divided into 2, namely the initial 7 minutes for the presentation and the final 8 minutes for the question and answer session with the jury",
-  },
-  {
-    no: "6",
-    datatarget: "#faqCollapse-during-6",
-    id: "faqCollapse-during-6",
-    question: "How many judges will come to the offline participants booth?",
-    answer:
-      "Just like online judging, there will be 2 judges judging each team. And after being judged you will be given a sticker as a sign that your booth has been judged, make sure you get 2 stickers",
-  },
-  {
-    no: "7",
-    datatarget: "#faqCollapse-during-7",
-    id: "faqCollapse-during-7",
-    question: "Can we tidy up our booth after being judged?",
-    answer:
-      "You can start tidying up the booth when all the teams have finished being judged, so if you have finished judging you can visit the booths of other participants first",
+      "Teman-teman akan diberikan waktu 15 menit untuk 1 sesi presentasi yang akan dibagi 2 yaitu 7 menit awal untuk presentasi dan 8 menit akhir untuk sesi tanya jawab dengan juri",
   },
 ];
 
@@ -301,49 +288,48 @@ const data3 = [
     no: "1",
     datatarget: "#faqCollapse-After-1",
     id: "faqCollapse-After-1",
-    question: "When will the winners be announced?",
+    question: "Kapan pengumuman pemenang?",
     answer:
-      "Announcement of winners is held on the last day of each event, you can check the date on the schedule listed in the Guide Book.",
+      "Pengumuman pemenang dilaksanakan pada hari terakhir disetiap event, kamu bisa cek tanggalnya di jadwal yang tertera di Guide Book.",
   },
   {
     no: "2",
     datatarget: "#faqCollapse-After-2",
     id: "faqCollapse-After-2",
-    question:
-      "Where can we see the winning results?",
+    question: "Di mana kami bisa melihat hasil pemenang?",
     answer:
-      "You can check the final results on the official website of the event you are participating in.",
+      "Kamu bisa cek hasil pemenang di official website dari event yang kamu ikuti",
   },
   {
     no: "3",
     datatarget: "#faqCollapse-After-3",
     id: "faqCollapse-After-3",
-    question: "When will the E-certificate be sent?",
+    question: "Kapan E-certificate akan dikirimkan?",
     answer:
-      "IYSA DOES NOT send E-Certificates to National participants or Indonesian Participants who take part in online events. Online National Participants will only receive a certificate in printed/hard form which will later be sent along with the medals via the JNE expedition.",
+      "IYSA TIDAK mengirimkan E-Certificate untuk peserta Nasional atau Peserta Indonesia yang mengikuti event secara online. Peserta Nasional Online hanya akan mendapatkan sertifikat dalam bentuk TERCETAK/Hard yang nantinya akan dikirimkan bersama dengan medali melalui ekspedisi JNE ",
   },
   {
     no: "4",
     datatarget: "#faqCollapse-After-4",
     id: "faqCollapse-After-4",
-    question: "When is the online delivery of participant certificates?",
+    question: "Kapan pengiriman sertifikat peserta online?",
     answer:
-      'The certificate will be sent no later than one month after the announcement of the winner. You can periodically check the delivery receipt that we sent on the Whatsapp group whether your certificate has been sent or not.',
+      "Sertifikat akan dikirimkan selambatnya satu bulan setelah pengumuman pemenang. Kamu bisa cek secara berkala resi pengiriman yang kami kirimkan di Whatsapp grup apakah sertifikat kamu sudah dikirim atau belum.",
   },
   {
     no: "5",
     datatarget: "#faqCollapse-After-5",
     id: "faqCollapse-After-5",
-    question: "Where can we get a supervisor certificate?",
+    question: "Di mana kami bisa mendapatkan sertifikat supervisor/pembimbing?",
     answer:
-      "You can see and download the supervisor certificate on the official website of the event you are participating in.",
+      "Kamu bisa melihat dan mengunduh sertifikat supervisor/pembimbing di official website dari event yang kamu ikuti",
   },
   {
     no: "6",
     datatarget: "#faqCollapse-After-6",
     id: "faqCollapse-After-6",
-    question: "How to do medal doubling?",
+    question: "Bagaimana cara melakukan penggandaan medali?",
     answer:
-      "For offline participants, you can immediately duplicate the medals on the spot after the announcement of the winners takes place. And for online participants, you can duplicate the medals via the link we sent on the Whatsapp group, we will send duplicate information on the Whatsapp group no later than 2 days after the announcement of the winner.",
-  }
+      "Untuk peserta offline kamu bisa langsung melakukan penggandaan medali di tempat setelah pengumuman pemenang berlangsung. Dan untuk peserta online kamu bisa melakukan penggandaan medali melalui link yang kami kirimkan di Whatsapp grup, kami akan mengirimkan informasi penggandaan di Whatsapp grup selambatnya 2 hari setelah pengumuman pemenang. ",
+  },
 ];

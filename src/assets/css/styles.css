@@ -75,7 +75,7 @@ body p {
 /* PAGE-HEADE START */
 /* PAGE-HEADE START */
 .page-header {
-  background-color: var(--warna-sekunder);
+  background-color: var(--warna-primary);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -150,7 +150,7 @@ body {
 }
 
 .toggle-btn {
-    background-color: var(--warna-sekunder);
+    background-color: #b2c1ce;
     display: flex;
     align-items: center;
     align-content: center;
@@ -473,7 +473,7 @@ a.sidebar-link:hover {
 /* Contact Start */ /* Contact Start */
 .contact-section {
     padding: 75px 25px 75px 25px  ;
-    background: var(--warna-sekunder);
+    background: var(--warna-primary);
     background-image: url(/assets/icon/wave-bawah.svg);
     background-position: center center;
     background-size: cover;
@@ -483,7 +483,7 @@ a.sidebar-link:hover {
   
   .contact-section .btn{
     color: var(--warna-tulisan);
-    background-color: var(--warna-sekunder);
+    background-color: var(--warna-primary);
   }
   .contact-section .section-heading {
     color: var(--warna-tulisan);
@@ -546,7 +546,7 @@ a.sidebar-link:hover {
 /* FAQ Start */
 .faq-section {
     padding: 75px 25px 75px 25px  ;
-    background: var(--warna-sekunder);
+    background: var(--warna-primary);
     background-image: url(/assets/icon/wave-bawah.svg);
     background-position: center center;
     background-size: cover;
