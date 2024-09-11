@@ -9,12 +9,22 @@ function Organized() {
           <div className="image col-12 col-lg-9 text-lg-start">
             <img
               src="./assets/logo/LogoIYSA.WebP"
-              className="img-fluid m-3 m-lg-5"
+              className="img-fluid m-3"
               alt=".."
             />
             <img
               src="./assets/logo/akt.png"
-              className="img-fluid m-3 m-lg-5"
+              className="img-fluid m-3"
+              alt="..."
+            />
+            <img
+              src="./assets/logo/vokasi.png"
+              className="img-fluid m-3"
+              alt="..."
+            />
+            <img
+              src="./assets/logo/Logo-UNISMA.png"
+              className="img-fluid m-3"
               alt="..."
             />
           </div>
