@@ -22,11 +22,11 @@ function Organized() {
               className="img-fluid m-3"
               alt="..."
             />
-            <img
+            {/* <img
               src="./assets/logo/Logo-UNISMA.png"
               className="img-fluid m-3"
               alt="..."
-            />
+            /> */}
           </div>
         </div>
       </section>
