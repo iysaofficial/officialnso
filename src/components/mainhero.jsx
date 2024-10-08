@@ -22,8 +22,8 @@ function MainHero() {
                 inovasimu di berbagai kategori : Mathematics, Life Science,
                 Environment, Education, Technology, Social Science, Physics, Energy dan Engineering. Presentasikan karyamu di depan juri ahli, kolaborasi dengan mahasiswa berbakat lainnya dan dapatkan penghargaan yang memperkaya portofolio akademik dan profesionalmu. Daftarkan dirimu sekarang dan jadilah bagian dari perubahan!
               </p>
-              <a className="btn btn-action m-lg-2 m-md-1" href="https://registrasi-nsif-2024.vercel.app/" target="_blank">
-                Daftar Disini!
+              <a className="btn btn-action m-lg-2 m-md-1">
+                Tutup Pendaftaran
               </a>
               <a
                 className="btn btn-action m-lg-2 m-1"
